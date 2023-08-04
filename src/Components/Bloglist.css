@@ -1,0 +1,34 @@
+.Bloglist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+}
+.blog-Container {
+  height: max-content;
+  background-color: gray;
+  width: max-content;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+}
+.Blog-Container {
+  display: flex;
+}
+.word {
+  width: 70%;
+  height: 30px;
+  margin: 20px;
+  background-color: white;
+}
+.icon {
+  width: 50px;
+  background-color: rgb(246, 248, 247);
+  height: 30px;
+  margin: 20px;
+  margin-left: 5px;
+  text-align: center;
+}
+p {
+  padding: 5px;
+}

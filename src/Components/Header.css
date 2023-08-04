@@ -1,0 +1,32 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.Header {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  background-color: gray;
+  max-height: 100px;
+}
+.logo {
+  font-size: 23px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 10px;
+  color: aliceblue;
+}
+.nav_bar {
+  display: flex;
+}
+.nav-links {
+  display: flex;
+  padding: 10px;
+  color: aliceblue;
+}
+.nav-links a {
+  color: aliceblue;
+}

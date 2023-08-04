@@ -1,0 +1,36 @@
+.Addblog {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+.title {
+  font-size: 50px;
+  text-align: center;
+}
+.Container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 5px;
+  width: 500px;
+  background-color: rgb(141, 141, 139);
+}
+.Container input {
+  width: 70%;
+  margin: 5px;
+  border: none;
+  height: 30px;
+  color: rgb(14, 131, 233);
+}
+.Container button {
+  border: none;
+  padding: 5px;
+  height: 30px;
+  margin: 5px;
+  width: 5rem;
+  color: black;
+  background-color: white;
+}
